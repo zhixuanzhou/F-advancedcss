@@ -3,6 +3,8 @@ body {
   align-items: center;
   flex-direction: column;
   height: fit-content;
+  margin-left: 350px;
+  margin-right: 350px;
 }
 
 .header-container {
@@ -32,7 +34,9 @@ main {
 }
 
 .first-column {
-  width: 150px;
+  width: 200px;
+  margin-right: 20px;
+  margin-left: 15px;
 }
 
 .about-block {
@@ -40,6 +44,7 @@ main {
   padding: 15px;
   margin-top: 10px;
   margin-bottom: 20px;
+  height: 200px;
 }
 
 .left-title {
@@ -60,14 +65,14 @@ main {
 }
 
 .card-1 {
-  margin-top: 10px;
-  width: 300px;
+  margin: 10px 20px 20px 0px;
+  width: 400px;
   height: fit-content;
   border: 1px solid lightgray;
 }
 
 .thumbnail {
-  width: 300px;
+  width: 400px;
   height: 120px;
   border-bottom: 1px solid lightgray;
 }
@@ -149,4 +154,11 @@ main {
   background-color: cornflowerblue;
   color: whitesmoke;
   border-radius: 4px;
+}
+
+.footer {
+  background-color: whitesmoke;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
 }
