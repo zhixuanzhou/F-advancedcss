@@ -159,6 +159,6 @@ main {
 .footer {
   background-color: whitesmoke;
   width: 100%;
-  height: fit-content;
+  height: 70px;
   text-align: center;
 }
