@@ -1,100 +1,23 @@
 body {
-  font-family: "Fix for Mac Chrome 80", system-ui, -apple-system,
-    BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
-  background-color: #e9ebee;
   display: flex;
-  flex-direction: column;
-}
-
-.header {
-  background-color: #3b5998;
-  color: white;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 60px;
+  flex-direction: column;
+  height: fit-content;
 }
 
-.content {
-  width: 981px;
+.header-container {
+  background-color: black;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
-.logo {
-  margin-left: 520px;
-  font-size: 35px;
+.navbar {
+  color: lightgray;
   font-weight: bold;
-}
-
-.register-button {
-  background-color: #42b72a;
-  margin-left: 10px;
-  margin-top: 10px;
-  padding: 5px;
-}
-
-.logo-button {
+  font-size: large;
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.join-facebook {
-  margin-right: 550px;
-  margin-top: 10px;
-}
-
-.content {
-  align-items: center;
-  justify-content: center;
-  margin-right: 400px;
-}
-
-h1 {
-  font-size: 18px;
-  margin-left: 520px;
-}
-
-h3 {
-  font-size: 10px;
-  font-weight: unset;
-  margin-left: 520px;
-}
-
-.cards {
-  width: 1200px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 400px;
-  margin-top: 40px;
-}
-
-.content-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  padding: 20px;
-}
-
-img {
-  height: 150px;
-  margin-bottom: 10px;
-}
-
-h4 {
-  margin-bottom: 3px;
-}
-
-p {
-  font-size: 10px;
-  color: grey;
-  margin-bottom: 50px;
-}
-
-button {
-  font-size: small;
-  background-color: aliceblue;
-  border: 1px solid grey;
-  border-radius: 3px;
+  justify-content: space-evenly;
+  width: 100%;
 }
