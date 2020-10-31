@@ -21,3 +21,32 @@ body {
   justify-content: space-evenly;
   width: 100%;
 }
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.first-column {
+  width: 150px;
+}
+
+.about-block {
+  background-color: whitesmoke;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left-title {
+  font-style: italic;
+  margin-bottom: unset;
+}
+
+.archives-list {
+  list-style: none;
+  margin-top: 15px;
+  padding: 0;
+}
